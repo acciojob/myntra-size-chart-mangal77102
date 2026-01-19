@@ -1,2 +1,25 @@
 
 /* Your CSS Code here. */
+table{
+	border:1px solid black;
+	border-collapse:collapse;
+	font-family:read-write-plaintext-only;
+}
+th,td,tr{
+	border:1px solid black;
+	padding-left:40px
+	
+}
+th{
+	background-color:lightcyan;
+	
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #e6f2ff;
+}
+
